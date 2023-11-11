@@ -1,0 +1,475 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* General Css Rules */
+.padding-section-top-bottom {
+  padding: 80px 150px;
+}
+.clr {
+  clear: both;
+}
+
+/* /////////////////////Head Section//////////////////////// */
+body {
+  position: relative;
+}
+
+.nav-bar {
+  /* position: relative; */
+  /* background-color: #484540; */
+  /* padding: 10px 25px 180px; */
+  width: 80%;
+  margin: auto;
+  position: fixed;
+  padding: 25px 152px;
+}
+
+.nav-bar .logo {
+  float: left;
+}
+
+.nav-bar .bakery-logo {
+  width: 180px;
+}
+
+.nav-bar .links {
+  float: right;
+  margin-top: 12px;
+  /* vertical-align: middle; */
+}
+
+.nav-bar .links li {
+  list-style: none;
+  float: left;
+  margin-right: 25px;
+}
+.nav-bar .links li:first-child {
+  border-top: #c18e65;
+}
+.nav-bar .links a {
+  text-decoration: none;
+  color: #e0dcd2;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+}
+.nav-bar .links a:hover {
+  color: #c18e65;
+  transition: color 0.6s ease;
+}
+
+/* /////////////////////Head Section//////////////////////// */
+.head-section {
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.head-contents {
+  line-height: 35px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 270px;
+}
+
+.head-contents .welcome-line {
+  font-size: 25px;
+  margin-bottom: 5px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.head-contents h1 {
+  font-size: 73px;
+  margin-bottom: 20px;
+  /* font-weight: 200; */
+  font-family: "Alegreya", serif;
+  padding: 25px 0;
+}
+
+.head-contents p {
+  font-size: 25px;
+}
+
+.buttons {
+  margin-top: 15px;
+}
+.buttons button {
+  padding: 18px 25px;
+
+  border-radius: 4px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.learn-more {
+  border-style: none;
+  background-color: #8e7754;
+}
+.learn-more:hover {
+  background-color: #fff;
+  color: #000;
+}
+.contact-us {
+  background: none;
+  border-style: solid;
+  border-color: #fff;
+}
+.contact-us:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* /////////////////////Who We are Section//////////////////////// */
+.who-we-are {
+}
+.who-img-container {
+  width: 50%;
+  float: left;
+  /* margin-right: 50px; */
+}
+.who-img {
+  width: 90%;
+}
+.who-contents {
+  width: 50%;
+  float: right;
+  text-align: left;
+  padding: 100px 0;
+  line-height: 30px;
+}
+.who-contents-ques {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Alegreya", serif;
+  margin-bottom: 25px;
+}
+.who-contents-ans {
+  opacity: 0.7;
+  margin-bottom: 25px;
+}
+.who-contents-features {
+  text-align: left;
+}
+.contents-features-list {
+  margin-bottom: 25px;
+
+  list-style: none;
+}
+.contents-features-list img {
+  /* display: inline-block; */
+  width: 35px;
+  float: left;
+  border-radius: 50%;
+  border: 1px solid #66646429;
+  margin-right: 10px;
+}
+.contents-features-list .features-list-text {
+  /* float: left; */
+  vertical-align: sub;
+  opacity: 0.7;
+}
+
+/* /////////////////////Our Location//////////////////////// */
+.our-location {
+  background-color: #f8f8f8;
+}
+.location-contents {
+  width: 50%;
+  float: left;
+  text-align: left;
+  padding: 100px 0;
+  line-height: 30px;
+}
+.location-title {
+  font-size: 32px;
+  font-weight: 400;
+  opacity: 1;
+  font-family: "Alegreya";
+  margin-bottom: 25px;
+}
+
+.location-caption,
+.location-text {
+  opacity: 0.7;
+  margin-bottom: 25px;
+}
+
+.location-img-container {
+  width: 50%;
+  float: right;
+  text-align: end;
+  /* margin-right: 50px; */
+}
+.location-img {
+  width: 90%;
+}
+
+/* /////////////////////Our Baking//////////////////////// */
+
+.our-baking {
+  text-align: center;
+  /* background-color: #ac9; */
+}
+
+.our-baking-title {
+  font-size: 32px;
+  font-weight: 400;
+  opacity: 1;
+  font-family: "Alegreya";
+  margin-bottom: 25px;
+}
+
+.our-baking-caption {
+  opacity: 0.7;
+  margin-bottom: 70px;
+}
+
+.our-baking-body {
+  width: 100%;
+  /* background-color: #0098e429; */
+}
+
+.our-baking-sort {
+  width: 33.33%;
+  float: left;
+}
+
+.baking-sort-img {
+  width: 92%;
+  margin-bottom: 25px;
+}
+
+.baking-sort-title {
+  font-size: 22px;
+  font-weight: 400;
+  /* opacity: 1; */
+  font-family: "Alegreya";
+  margin-bottom: 10px;
+}
+
+.baking-sort-text {
+  font-size: 18px;
+  /* padding: 15px 25px; */
+  opacity: 0.7;
+  margin-bottom: 25px;
+  line-height: 1.9;
+}
+
+/* ///////////////Contact Information////////////////// */
+.contact-information {
+  background-color: #f8f8f8;
+}
+
+.contact-contents {
+  width: 50%;
+  float: left;
+  text-align: left;
+  /* padding: 100px 0; */
+  line-height: 30px;
+}
+
+.contact-contents-title {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Alegreya", serif;
+  margin-bottom: 25px;
+}
+
+.contact-contents-text {
+  opacity: 0.7;
+  margin-bottom: 25px;
+}
+
+.contact-contents-details-title {
+  opacity: 0.7;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.contact-features {
+  text-align: left;
+}
+
+.contact-features-list {
+  margin-bottom: 25px;
+  list-style: none;
+}
+
+.contact-features-list img {
+  /* display: inline-block; */
+  width: 35px;
+  float: left;
+  border-radius: 50%;
+  border: 1px solid #66646429;
+  margin-right: 10px;
+  background-color: #8e7754;
+}
+
+.contact-features-list .features-list-text {
+  /* float: left; */
+  vertical-align: sub;
+  opacity: 0.7;
+}
+
+.contact-map-container {
+  width: 50%;
+  float: left;
+  height: 100%;
+  /* margin-right: 50px; */
+}
+
+.contact-map {
+  width: 90%;
+  height: 100%;
+}
+
+/*////////////////  Footer   ////////////////// */
+
+/*////////////////  Footer-Top   ////////////////// */
+.footer-top {
+  background-color: #403d38;
+}
+
+.footer-column {
+  float: left;
+  width: 25%;
+  /* padding: 0px 5.8px; */
+  line-height: 1.8;
+}
+.footer-top hr {
+  opacity: 0.1;
+  width: 90%;
+}
+.footer-column-title {
+  color: #fff;
+  font-family: "Alegreya", serif;
+  margin-bottom: 25px;
+}
+
+.color-text-opacity {
+  color: #fff;
+  opacity: 0.4;
+}
+
+.footer-first-parag {
+  margin-bottom: 25px;
+}
+.footer-column-content {
+}
+
+.footer-list-content {
+  list-style: none;
+  margin-bottom: 15px;
+
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.bg-footer-column {
+  position: relative;
+}
+
+.bg-footer-column::after {
+  content: "";
+  background-image: url(../images/contact-details-map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.1;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}
+.footer-last-column .footer-list-content {
+  margin-top: 10px;
+}
+.footer-last-column .footer-list-content img {
+  width: 30px;
+  /* display: inline-block; */
+  float: left;
+  color: #f8f8f8;
+}
+.footer-last-column .phone,
+.email,
+.website {
+  text-decoration: none;
+  color: #dddddd;
+}
+.footer-last-column .phone:hover,
+.email:hover,
+.website:hover {
+  color: #ffffff;
+}
+.footer-last-column {
+  z-index: 2;
+  position: relative;
+}
+
+/*////////////////  Footer-Bottom   ////////////////// */
+.footer-bottom {
+  background-color: #353330;
+  text-align: center;
+  padding: 40px 150px;
+}
+
+.footer-bottom-content {
+}
+
+.footer-bottom-content .footer-bakery-logo {
+  width: 350px;
+  margin-bottom: 25px;
+}
+
+.footer-bottom-content p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.social-media-icons {
+  margin: auto;
+  width: 50%;
+}
+
+.social-media-icons a {
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 5px;
+}
+.social-media-icons a:last-child {
+  margin-right: 0;
+}
+.social-media-icons img {
+  width: 40px;
+  border-radius: 50%;
+  background-color: #484540;
+}
+.social-media-icons .facebook-logo:hover {
+  background-color: #3b5998;
+  transition: background-color 0.6s ease;
+}
+
+.social-media-icons .google-logo:hover {
+  background-color: #dd4b39;
+  transition: background-color 0.6s ease;
+}
+
+.social-media-icons .linkedin-logo:hover {
+  background-color: #007bb5;
+  transition: background-color 0.6s ease;
+}
+
+.social-media-icons .twitter-logo:hover {
+  background-color: #00aced;
+  transition: background-color 0.6s ease;
+}
