@@ -378,7 +378,7 @@ body {
 
 .bg-footer-column::after {
   content: "";
-  background-image: url(images/contact-details-map.png);
+  background-image: url(../images/contact-details-map.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
